@@ -5,7 +5,7 @@ class menu():
 	def __init__(self):
 		while True:
 			print("1) Agregar Usuario")
-			print("2) Mostrar Usuarios")
+			print("2) Visualizar Usuarios")
 			print("3) Agregar Invernadero")
 			print("4) Mostrar Invernaderos")
 			print("5) Agregar Planta")
