@@ -12,7 +12,7 @@ class administrador():
 		t = self.c.execute("SELECT * FROM usuario")
 		lista = []
 		for e in t:
-			d = {'ID': e[0], 'Nombre': e[1], 'Apellido1': e[2], 'Apellido2': e[3], 'Correo': e[4], \
+			d = {'ID': e[0], 'Persona': e[1], 'Apellido1': e[2], 'Apellido2': e[3], 'Correo': e[4], \
 			'Password': e[5], 'Tipo': e[6]}
 			lista.append(d)
 		return lista
