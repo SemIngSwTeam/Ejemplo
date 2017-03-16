@@ -4,6 +4,7 @@ class menu():
 	admin = administrador()
 	def __init__(self):
 		while True:
+			print("0) Nada")
 			print("1) Agregar Usuario")
 			print("2) Visualizar Usuarios")
 			print("3) Agregar Invernadero")
